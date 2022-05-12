@@ -1,0 +1,118 @@
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  margin: .5rem 0;
+}
+
+.container-move-btn{
+  display: flex;
+  justify-content: center;
+  margin: .5rem 0;
+
+}
+
+
+.move-btn{
+  border: none;
+  font-size: 1.1rem;
+  background-color: #ff530e;
+  border-radius: .3rem;
+  padding: .4rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.number-of-disks{
+  text-align: center;
+  margin: 0;
+  margin-top: .5rem;
+}
+
+.container-n-btn{
+  display: flex;
+  justify-content: space-between;
+  margin: .5rem 0;
+  margin-bottom: 1rem;
+  background-color: #ff530e;
+  width: 10rem;
+  padding: .5rem;
+  border-radius: 2rem;
+}
+
+.n-btn{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.n{
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.container-towers{
+  display: flex;
+  justify-content: center;
+}
+
+.tower-con{
+  width: 280px;
+  height: 400px;
+  margin: 0 30px;
+  background-color: #87ceeb;
+  position: relative;
+}
+
+.stick{
+  background-color: #804000;
+  width: 20px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 130px; /* width 280px - thikness 20px / 2 = 130    138 to center*/   
+  position: relative;
+}
+
+.floor{
+  width: 280px;
+  height: 100px;
+  background-color: #24ca3d;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.disk{
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  top: 200px
+}
